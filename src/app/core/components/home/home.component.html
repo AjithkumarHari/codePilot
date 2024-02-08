@@ -1,0 +1,12 @@
+<div class=" flex justify-center items-center min-h-screen bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900">
+    <div class="h-80 w-fit px-5 bg-[#10002b] rounded-lg flex justify-center items-center" appRightClick>
+        <div>
+            <div class="flex justify-center items-center">
+                <input type="date" class="p-3 rounded-l-lg  outline-none " [(ngModel)]="date">
+                <button class="text-white text-xl font-bold bg-[#9d4edd] p-3 rounded-r-lg active:bg-white" >Submit</button>
+            </div>
+            <p class="text-white text-center my-2">Age is :{{date | age}}</p>
+        </div>
+    </div>
+
+</div>
